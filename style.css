@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 9;
+    font-family: Nunito;
+}
+
+.header{
+    box-sizing: border-box;
+    height: 72px;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(207, 207, 207, 0.25);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+}
+
+.button{
+    background-color: #CB333B;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #8e2429;
+}
+
+.tombolheader{
+    padding: 10px 28px 10px 22px;
+}
+
+#icon-donor{
+    font-size: 13px;
+    padding-right: 3px;
+}
+
+.icon-menu{
+   display: none;
+}
+
+.cover{
+    height: 100vh;
+    padding: 0px 20px 0px 20px;
+    background-image: url("Cover.png");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.cover-content{
+    padding-top: 230px;
+    text-align: center;
+}
+
+.cover-content h1{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 47px;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.search-wrapper{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    width: 246px;
+    border: none;
+}
+
+.dropdown select{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-family: Nunito;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/* select option{
+    background: #CB333B;
+    color: white;
+} */
+
+.search-button{
+    background-color: #CB333B;
+    border: none;
+    padding: 0px;
+}
+
+.search-button:hover{
+    background-color: #8e2429;
+    transition: all 0.5s;
+}
+
+#icon-search{
+    color: white;
+    align-items: center;
+    font-size: 25px; 
+    padding: 10px 10px;
+}
+
+.content{
+    background-color: #CB333B;
+    height: 635px;
+}
