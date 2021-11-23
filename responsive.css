@@ -67,9 +67,8 @@
 
     .icon-menu{
         display:block;
-        height: 100%;
         line-height: 55px;
-        font-size: 40px;
+        font-size: 30px;
         color: black;
         text-align: center;
     }
