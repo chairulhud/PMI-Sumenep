@@ -51,6 +51,7 @@
 
 @media all and (max-width: 670px) {
     .header{
+        height: 62px;
         padding: 0px 20px 0px 20px;
     }
 
@@ -67,7 +68,7 @@
     .icon-menu{
         display:block;
         height: 100%;
-        line-height: 72px;
+        line-height: 62px;
         font-size: 40px;
         color: black;
         text-align: center;
