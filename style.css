@@ -67,11 +67,14 @@ body{
     background-image: url("Cover.png");
     background-size: cover;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cover-content{
-    padding-top: 230px;
     text-align: center;
+    margin: auto;
 }
 
 .cover-content h1{
