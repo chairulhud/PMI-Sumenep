@@ -68,7 +68,7 @@
     .icon-menu{
         display:block;
         line-height: 55px;
-        font-size: 30px;
+        font-size: 35px;
         color: black;
         text-align: center;
     }
@@ -81,8 +81,12 @@
         font-size: 35px;
     }
     
+    .search-wrapper{
+        padding-top: 40px;
+    }
+
     .dropdown{
-        width: 100vh;
+        width: 100%;
     }
 
 }
