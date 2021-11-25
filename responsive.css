@@ -75,6 +75,7 @@
 
     .cover{
         height: 100vh;
+        background-image: url("Cover_Mobile.png");
     }
 
     .cover-content h1{
