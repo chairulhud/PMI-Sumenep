@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 9;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
 }
 
 .header{
@@ -79,7 +79,7 @@ body{
 
 .cover-content h1{
     color: white;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 47px;
     letter-spacing: 5px;
     margin-top: 0px;
@@ -103,7 +103,7 @@ body{
     width: 100%;
     padding: 12px;
     font-size: 14px;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     cursor: pointer;
     outline: none;
     border: none;
